@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+
+main{
+    align-self: center;
+    max-width: 100%;
+}
+
+header {
+    max-height: 10%;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom-style: solid;
+    border-bottom-color: #7d97ad;
+    border-bottom-width: thick;
+
+    margin-bottom: 2%;
+}
+
+.header__name, .header__title {
+    align-self: flex-end;
+    margin: 0;
+}
+
+.header__title {
+    font-family: "Courier New";
+}
+.header__logo{
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.logo__container{
+    display: flex;
+}
+
+.text__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 2%;
+}
+
+body {
+
+}
+
+.the_great_outdoors, .humor, .work{
+    max-height: 300px;
+    max-width: 90%;
+
+}
+
+.main_picture {
+    max-height: 600px;
+    max-width: 100%;
+}
+
+.featured-work {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.featured-work__header {
+    padding: 5% 0 5% 1%;
+    color: #7d97ad;
+}
+
