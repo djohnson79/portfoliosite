@@ -4,27 +4,26 @@
     max-width: 100%;
 
 }
+
 @media screen and (max-width: 550px){
     .featured-work {
         flex-wrap: wrap;
     }
-
     h1{font-size: 85%}
     h2{font-size: 85%}
     h3{font-size: 85%}
     p{font-size: 80%}
-
 }
 
 @media screen and (max-width: 850px){
     p{font-size: 75%}
 
 }
+
 @media screen and (min-width: 1120px){
     .container{
         box-sizing: border-box;
      }
-
 }
 
 .container{
@@ -56,9 +55,11 @@ header {
 .header__name{
     font-family: Calibri;
 }
+
 .header__title {
     font-family: "Courier New";
 }
+
 .header__logo{
     max-height:100%;
     max-width: 100%;
@@ -82,6 +83,7 @@ body {
     flex-direction: column;
     margin: auto;
 }
+
 article {
     max-width: 100%;
     flex-basis: 100%;
@@ -91,7 +93,6 @@ article {
 .the_great_outdoors, .deck, .work{
     max-height: 300px;
     max-width: 98%;
-
 }
 
 .main_picture {
