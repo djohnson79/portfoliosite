@@ -1,14 +1,35 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
+
+}
+@media screen and (max-width: 550px){
+    .featured-work {
+        flex-wrap: wrap;
+    }
+
+    h1{font-size: 85%}
+    h2{font-size: 85%}
+    h3{font-size: 85%}
+    p{font-size: 80%}
+
+}
+
+@media screen and (max-width: 850px){
+    p{font-size: 75%}
+
+}
+@media screen and (min-width: 1120px){
+    .container{
+        box-sizing: border-box;
+     }
+
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
     max-width: 70%;
-    margin: 0 auto;
-
+    align-self: center;
 }
 
 main{
@@ -18,13 +39,12 @@ main{
 
 header {
     max-height: 10%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
-
     border-bottom-style: solid;
     border-bottom-color: #7d97ad;
     border-bottom-width: thick;
-
     margin-bottom: 2%;
 }
 
@@ -33,16 +53,21 @@ header {
     margin: 0;
 }
 
+.header__name{
+    font-family: Calibri;
+}
 .header__title {
     font-family: "Courier New";
 }
 .header__logo{
-    max-height: 120px;
-    max-width: 120px;
+    max-height:100%;
+    max-width: 100%;
 }
 
 .logo__container{
     display: flex;
+    max-width: 120px;
+    max-height: 120px;
 }
 
 .text__container {
@@ -53,28 +78,40 @@ header {
 }
 
 body {
-
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+article {
+    max-width: 100%;
+    flex-basis: 100%;
+    align-self: stretch;
 }
 
-.the_great_outdoors, .humor, .work{
+.the_great_outdoors, .deck, .work{
     max-height: 300px;
-    max-width: 90%;
+    max-width: 98%;
 
 }
 
 .main_picture {
-    max-height: 600px;
+    max-height: 700px;
     max-width: 100%;
 }
 
 .featured-work {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
 }
-
+.featured-work__description{
+    padding: 5% 5% 5% 0%;
+}
+.featured-work__subheading{
+    padding: 5% 5% 0% 0%;
+}
 .featured-work__header {
-    padding: 5% 0 5% 1%;
+    padding: 5% 5% 5% 0%;
     color: #7d97ad;
 }
+
 
