@@ -26,17 +26,12 @@
      }
 }
 
-.container{
-    max-width: 70%;
-    align-self: center;
-}
-
-main{
+.portfolio__main{
     align-self: center;
     max-width: 100%;
 }
 
-header {
+.portfolio__header {
     max-height: 10%;
     max-width: 100%;
     display: flex;
@@ -47,7 +42,8 @@ header {
     margin-bottom: 2%;
 }
 
-.header__name, .header__title {
+.header__name,
+.header__title {
     align-self: flex-end;
     margin: 0;
 }
@@ -78,19 +74,23 @@ header {
     margin-bottom: 2%;
 }
 
-body {
+.portfolio__body {
     display: flex;
     flex-direction: column;
     margin: auto;
+     max-width: 70%;
+    align-self: center;
 }
 
-article {
+.portfolio__article {
     max-width: 100%;
     flex-basis: 100%;
     align-self: stretch;
 }
 
-.the_great_outdoors, .deck, .work{
+.the_great_outdoors,
+.deck,
+.work{
     max-height: 300px;
     max-width: 98%;
 }

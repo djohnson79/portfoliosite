@@ -1,59 +1,55 @@
 <!doctype html>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<html>
-	<div class="container">
-		<head>
-			<title>Desiree Johnson</title>
-			<meta name="description" content="Describe Web Site here">
+<html lang="en">
+	<head>
+		<title>Desiree Johnson</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- Normalize to clean up & standardize the browser default styles: http://necolas.github.io/normalize.css/ -->
+		<link rel="stylesheet" href="css/normalize.css">
 
-			<!-- Normalize to clean up & standardize the browser default styles: http://necolas.github.io/normalize.css/ -->
-			<link rel="stylesheet" href="css/normalize.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/styles.css">
 
-			<!-- Custom CSS -->
-			<link rel="stylesheet" href="css/styles.css">
+		<!-- Modernizr allows HTML5 elements to work in older browsers: http://modernizr.com/ -->
+		<script src="js/modernizr.js"></script>
+	</head>
+	<body class="portfolio__body">
+		<header class="portfolio__header">
+			<div class="logo__container">
+				<a href="https://pbs.twimg.com/profile_images/877421534486315008/8wplWcXI_400x400.jpg">
+					<img src="img/logo.jpg" alt="Udacity Logo" class="header__logo"></a>
+			</div>
+			<div class="text__container">
+				<h1 class="header__name">Desiree Johnson</h1>
+				<h3 class="header__title">Full-stack ninja</h3>
+			</div>
+		</header>
+		<main class="portfolio__main">
+			<img src="img/main_picture.jpeg" alt="Me and a horse" class="main_picture">
+		</main>
+		<h2 class="featured-work__header">Featured Work</h2>
+		<section class="featured-work">
 
-			<!-- Modernizr allows HTML5 elements to work in older browsers: http://modernizr.com/ -->
-			<script src="js/modernizr.js"></script>
-		</head>
-		<body>
-			<header>
-				<div class="logo__container">
-                    <a href="https://pbs.twimg.com/profile_images/877421534486315008/8wplWcXI_400x400.jpg">
-                        <img src="img/logo.jpg" alt="Udacity Logo" class="header__logo"></a>
-				</div>
-				<div class="text__container">
-					<h1 class="header__name">Desiree Johnson</h1>
-					<h3 class="header__title">Full-stack ninja</h3>
-				</div>
-			</header>
-			<main>
-				<img src="img/main_picture.jpeg" alt="Me and a horse" class="main_picture">
-			</main>
-			<h2 class="featured-work__header">Featured Work</h2>
-			<section class="featured-work">
-
-				<article>
-					<img src="img/the_great_outdoors.jpg" alt="Picture of a hike at Guadeloupe State Park" class="the_great_outdoors">
-					<h3 class="featured-work__subheading">The Great Outdoors</h3>
-					<p class="featured-work__description">This is information about me. It's all about outdoor
-						activities. Hiking, camping, running... You name it I'm out there. Except for bungie jumping.
-						Nope none of that :D </p>
-				</article>
-				<article id="deck_id">
-					<img src="img/deck.JPEG" alt="Picture of an outdoor deck" class="deck">
-					<h2 class="featured-work__subheading">Deck</h2>
-					<p class="featured-work__description">This isn't my deck but I'm working on one. My current outdoor
-					project is to create a nice backyard space that includes...you named it a deck. It'll also have a
-					pergola or two or three and a raised garden bed.</p>
-				</article>
-				<article>
-					<img src="img/work.jpg" alt="Shirt that says Rage Against the Virtual Machine" class="work">
-					<h2 class="featured-work__subheading">Work</h2>
-					<p class="featured-work__description">Currently working as a software engineering. On the middleware
-						side is where I reside. I've done a little HTML and JS but mostly java and configuration stuff.
-						Looking forward to understanding the whole process.</p>
-				</article>
-			</section>
-		</body>
-	</div>
+			<article class="portfolio__article">
+				<img src="img/the_great_outdoors.jpg" alt="Picture of a hike at Guadeloupe State Park" class="the_great_outdoors">
+				<h3 class="featured-work__subheading">The Great Outdoors</h3>
+				<p class="featured-work__description">This is information about me. It's all about outdoor
+					activities. Hiking, camping, running... You name it I'm out there. Except for bungie jumping.
+					Nope none of that :D </p>
+			</article>
+			<article class="portfolio__article">
+				<img src="img/deck.JPEG" alt="Picture of an outdoor deck" class="deck">
+				<h2 class="featured-work__subheading">Deck</h2>
+				<p class="featured-work__description">This isn't my deck but I'm working on one. My current outdoor
+				project is to create a nice backyard space that includes...you named it a deck. It'll also have a
+				pergola or two or three and a raised garden bed.</p>
+			</article>
+			<article class="portfolio__article">
+				<img src="img/work.jpg" alt="Shirt that says Rage Against the Virtual Machine" class="work">
+				<h2 class="featured-work__subheading">Work</h2>
+				<p class="featured-work__description">Currently working as a software engineering. On the middleware
+					side is where I reside. I've done a little HTML and JS but mostly java and configuration stuff.
+					Looking forward to understanding the whole process.</p>
+			</article>
+		</section>
+	</body>
 </html>
